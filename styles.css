@@ -1,0 +1,54 @@
+html {
+  font-family: sans-serif;
+}
+textarea {
+  border-radius: 0.4rem;
+  border: none;
+  box-shadow: 0 0 10px 2px lightgray;
+  max-width: 400px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonDiv {
+  margin-top: 1rem;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  max-width: 400px;
+}
+
+.buttonDiv button {
+  width: 97%;
+  padding: 1rem;
+
+  border-radius: 0.4rem;
+  border: none;
+
+  box-shadow: 0 0 10px 2px lightgray;
+  transition: 300ms;
+}
+
+button:hover {
+  cursor: pointer;
+
+  background: black;
+  color: white;
+
+  transition: 300ms;
+}
