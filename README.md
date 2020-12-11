@@ -1,3 +1,3 @@
-# jsonconverter
+# Conversor de CSV
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/jsonconverter)
+Conversor de JSON em CSV e vice-versa, Coloque os valores dentro das caixas e veja a mágica!
